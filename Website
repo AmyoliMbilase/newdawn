@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Dawn - South African Universities</title>
+    <style>
+        section {
+            display: none;
+        }
+    </style>
+    <script>
+        function toggleUniversities(provinceId) {
+            var province = document.getElementById(provinceId);
+            if (province.style.display === "none") {
+                province.style.display = "block";
+            } else {
+                province.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to New Dawn - Your Gateway to South African Universities</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#western-cape" onclick="toggleUniversities('western-cape')">Western Cape</a></li>
+            <li><a href="#eastern-cape" onclick="toggleUniversities('eastern-cape')">Eastern Cape</a></li>
+            <li><a href="#north-west" onclick="toggleUniversities('north-west')">North West</a></li>
+            <li><a href="#free-state" onclick="toggleUniversities('free-state')">Free State</a></li>
+            <li><a href="#gauteng" onclick="toggleUniversities('gauteng')">Gauteng</a></li>
+            <li><a href="#northern-cape" onclick="toggleUniversities('northern-cape')">Northern Cape</a></li>
+            <li><a href="#limpopo" onclick="toggleUniversities('limpopo')">Limpopo</a></li>
+            <li><a href="#mpumalanga" onclick="toggleUniversities('mpumalanga')">Mpumalanga</a></li>
+            <li><a href="#kwazulu-natal" onclick="toggleUniversities('kwazulu-natal')">KwaZulu-Natal</a></li>
+            <!-- Add more provinces here if needed -->
+        </ul>
+    </nav>
+    <section id="western-cape">
+        <h2>Western Cape Universities</h2>
+        <ul>
+            <li><a href="application_form_cput.html">Cape Peninsula University of Technology (CPUT)</a></li>
+            <li><a href="application_form_stellenbosch_university.html">Stellenbosch University (SU)</a></li>
+            <li><a href="application_form_uct.html">University of Cape Town (UCT)</a></li>
+            <li><a href="application_form_uwc.html">University of the Western Cape (UWC)</a></li>
+            <!-- Add more universities from Western Cape here -->
+        </ul>
+    </section>
+    <section id="eastern-cape">
+        <h2>Eastern Cape Universities</h2>
+        <ul>
+            <li><a href="application_form_nelson_mandela_university.html">Nelson Mandela University</a></li>
+            <li><a href="application_form_rhodes_university.html">Rhodes University</a></li>
+            <li><a href="application_form_university_of_fort_hare.html">University of Fort Hare‎</a></li>
+            <li><a href="application_form_walter_sisulu_university.html">Walter Sisulu University‎</a></li>
+            <li><a href="application_form_stenden_sa.html">Stenden South Africa (private)</a></li>
+            <li><a href="application_form_sicambeni_rural_university.html">Sicambeni Rural University</a></li>
+            <!-- Add more universities from Eastern Cape here -->
+        </ul>
+    </section>
+    <section id="north-west">
+        <h2>North West Universities</h2>
+        <ul>
+            <li><a href="application_form_north_west_university.html">North-West University</a></li>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <!-- Add more universities from North West here -->
+        </ul>
+    </section>
+    <section id="free-state">
+        <h2>Free State Universities</h2>
+        <ul>
+            <li><a href="application_form_cut.html">Central University of Technology</a></li>
+            <li><a href="application_form_uofs.html">University of the Free State</a></li>
+            <!-- Add more universities from Free State here -->
+        </ul>
+    </section>
+    <section id="gauteng">
+        <h2>Gauteng Universities</h2>
+        <ul>
+            <li><a href="application_form_smu.html">Sefako Makgatho Health Sciences University</a></li>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <li><a href="application_form_up.html">University of Pretoria</a></li>
+            <li><a href="application_form_wits.html">University of the Witwatersrand</a></li>
+            <li><a href="application_form_vut.html">Vaal University of Technology</a></li>
+            <!-- Add more universities from Gauteng here -->
+        </ul>
+    </section>
+    <section id="northern-cape">
+        <h2>Northern Cape Universities</h2>
+        <ul>
+            <li><a href="application_form_sol_plaatje_university.html">Sol Plaatje University</a></li>
+            <!-- Add more universities from Northern Cape here -->
+        </ul>
+    </section>
+    <section id="limpopo">
+        <h2>Limpopo Universities</h2>
+        <ul>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <li><a href="application_form_university_of_limpopo.html">University of Limpopo</a></li>
+            <!-- Add more universities from Limpopo here -->
+        </ul>
+    </section>
+    <section id="mpumalanga">
+        <h2>Mpumalanga Universities</h2>
+        <ul>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <li><a href="application_form_university_of_mpumalanga.html">University of Mpumalanga</a></li>
+            <!-- Add more universities from Mpumalanga here -->
+        </ul>
+    </section>
+    <section id="kwazulu-natal">
+        <h2>KwaZulu-Natal Universities</h2>
+        <ul>
+            <li><a href="application_form_unizulu.html">University of Zululand</a></li>
+            <li><a href="application_form_dut.html">Durban University
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Dawn - South African Universities</title>
+    <style>
+        section {
+            display: none;
+        }
+    </style>
+    <script>
+        function toggleUniversities(provinceId) {
+            var province = document.getElementById(provinceId);
+            if (province.style.display === "none") {
+                province.style.display = "block";
+            } else {
+                province.style.display = "none";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to New Dawn - Your Gateway to South African Universities</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#western-cape" onclick="toggleUniversities('western-cape')">Western Cape</a></li>
+            <li><a href="#eastern-cape" onclick="toggleUniversities('eastern-cape')">Eastern Cape</a></li>
+            <li><a href="#north-west" onclick="toggleUniversities('north-west')">North West</a></li>
+            <li><a href="#free-state" onclick="toggleUniversities('free-state')">Free State</a></li>
+            <li><a href="#gauteng" onclick="toggleUniversities('gauteng')">Gauteng</a></li>
+            <li><a href="#northern-cape" onclick="toggleUniversities('northern-cape')">Northern Cape</a></li>
+            <li><a href="#limpopo" onclick="toggleUniversities('limpopo')">Limpopo</a></li>
+            <li><a href="#mpumalanga" onclick="toggleUniversities('mpumalanga')">Mpumalanga</a></li>
+            <li><a href="#kwazulu-natal" onclick="toggleUniversities('kwazulu-natal')">KwaZulu-Natal</a></li>
+            <!-- Add more provinces here if needed -->
+        </ul>
+    </nav>
+    <section id="western-cape">
+        <h2>Western Cape Universities</h2>
+        <ul>
+            <li><a href="application_form_cput.html">Cape Peninsula University of Technology (CPUT)</a></li>
+            <li><a href="application_form_stellenbosch_university.html">Stellenbosch University (SU)</a></li>
+            <li><a href="application_form_uct.html">University of Cape Town (UCT)</a></li>
+            <li><a href="application_form_uwc.html">University of the Western Cape (UWC)</a></li>
+            <!-- Add more universities from Western Cape here -->
+        </ul>
+    </section>
+    <section id="eastern-cape">
+        <h2>Eastern Cape Universities</h2>
+        <ul>
+            <li><a href="application_form_nelson_mandela_university.html">Nelson Mandela University</a></li>
+            <li><a href="application_form_rhodes_university.html">Rhodes University</a></li>
+            <li><a href="application_form_university_of_fort_hare.html">University of Fort Hare‎</a></li>
+            <li><a href="application_form_walter_sisulu_university.html">Walter Sisulu University‎</a></li>
+            <li><a href="application_form_stenden_sa.html">Stenden South Africa (private)</a></li>
+            <li><a href="application_form_sicambeni_rural_university.html">Sicambeni Rural University</a></li>
+            <!-- Add more universities from Eastern Cape here -->
+        </ul>
+    </section>
+    <section id="north-west">
+        <h2>North West Universities</h2>
+        <ul>
+            <li><a href="application_form_north_west_university.html">North-West University</a></li>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <!-- Add more universities from North West here -->
+        </ul>
+    </section>
+    <section id="free-state">
+        <h2>Free State Universities</h2>
+        <ul>
+            <li><a href="application_form_cut.html">Central University of Technology</a></li>
+            <li><a href="application_form_uofs.html">University of the Free State</a></li>
+            <!-- Add more universities from Free State here -->
+        </ul>
+    </section>
+    <section id="gauteng">
+        <h2>Gauteng Universities</h2>
+        <ul>
+            <li><a href="application_form_smu.html">Sefako Makgatho Health Sciences University</a></li>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <li><a href="application_form_up.html">University of Pretoria</a></li>
+            <li><a href="application_form_wits.html">University of the Witwatersrand</a></li>
+            <li><a href="application_form_vut.html">Vaal University of Technology</a></li>
+            <!-- Add more universities from Gauteng here -->
+        </ul>
+    </section>
+    <section id="northern-cape">
+        <h2>Northern Cape Universities</h2>
+        <ul>
+            <li><a href="application_form_sol_plaatje_university.html">Sol Plaatje University</a></li>
+            <!-- Add more universities from Northern Cape here -->
+        </ul>
+    </section>
+    <section id="limpopo">
+        <h2>Limpopo Universities</h2>
+        <ul>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <li><a href="application_form_university_of_limpopo.html">University of Limpopo</a></li>
+            <!-- Add more universities from Limpopo here -->
+        </ul>
+    </section>
+    <section id="mpumalanga">
+        <h2>Mpumalanga Universities</h2>
+        <ul>
+            <li><a href="application_form_tut.html">Tshwane University of Technology</a></li>
+            <li><a href="application_form_university_of_mpumalanga.html">University of Mpumalanga</a></li>
+            <!-- Add more universities from Mpumalanga here -->
+        </ul>
+    </section>
+    <section id="kwazulu-natal">
+        <h2>KwaZulu-Natal Universities</h2>
+        <ul>
+            <li><a href="application_form_unizulu.html">University of Zululand</a></li>
+            <li><a href="application_form_dut.html">Durban University
+of Technology</a></li>
+            <li><a href="application_form_ukzn.html">University of KwaZulu-Natal</a></li>
+            <li><a href="application_form_mut.html">Mangosuthu University of Technology</a></li>
+            <!-- Add more universities from KwaZulu-Natal here -->
+        </ul>
+    </section>
+    <section id="internships">
+        <h2>Internships and Apprenticeships</h2>
+        <ul>
+            <li><a href="#">SANCCOB</a></li>
+            <li><a href="#">Services Sector Education and Training Authorities</a></li>
+            <li><a href="#">Automotive Authority (AA)</a></li>
+            <li><a href="#">Sector Education and Training Authority (SETA)</a></li>
+            <!-- Add more internship and apprenticeship opportunities here -->
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 New Dawn - All rights reserved.</p>
+    </footer>
+</body>
+</html>
